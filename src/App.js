@@ -12,7 +12,6 @@ function App() {
   });
   // const [error, setError] = useState(null);
   const [city, setCity] = useState("");
-  const fetchWeather = async () => {};
 
   const toDatefunction = () => {
     const months = [
@@ -109,9 +108,6 @@ function App() {
           required
           onKeyPress={search}
         />
-        {/* <button onClick={fetchWeather} className="search-btn">
-          Search
-        </button> */}
       </div>
       {weather.loading && (
         <div className="loading">

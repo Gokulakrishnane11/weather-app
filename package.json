@@ -37,6 +37,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "scripts": {
+      "deploy": "npm run build && gh-pages -d build"
+    }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
