@@ -104,7 +104,6 @@ function App() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
           className="search-input"
-          // disabled={!city} // disabled search button until city name is entered
           required
           onKeyPress={search}
         />
